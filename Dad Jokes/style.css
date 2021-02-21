@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #686de0;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -42,7 +42,7 @@ h3 {
 }
 
 .btn {
-  background-color: #9f68e0;
+  background-image: linear-gradient(to right, #8b09f5, #7541f8, #635af6, #586cf0, #587ae7);
   color: #fff;
   border: 0;
   border-radius: 10px;
@@ -50,10 +50,6 @@ h3 {
   padding: 14px 40px;
   font-size: 16px;
   cursor: pointer;
-}
-
-.btn:active {
-  transform: scale(0.98);
 }
 
 .btn:focus {
