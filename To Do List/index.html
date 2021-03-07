@@ -12,7 +12,20 @@
   <title>To Do List</title>
 </head>
 <body>
-  <h1>Placeholder</h1>
+  <div id="container" class="header">
+  <h1>JavaScript To Do List</h1>
+  <input type="text" id="myInput" placeholder="Add new task">
+  <span onclick="addToList()" class="addBtn">Add!</span>
+</div>
+
+<ul id="myUL">
+  <li>Do LeetCode</li>
+  <li class="checked">Work on projects</li>
+  <li>Job Hunt</li>
+  <li>Go to the convenience store</li>
+  <li>Pay rent</li>
+  <li>Contemplate</li>
+</ul>
 
 <script src="script.js"></script>
 </body>
